@@ -48,7 +48,7 @@
           <!-- Remove warnings that only appear on OpenShift -->
           <compilerArgs>-XdisableUpdateCheck</compilerArgs>
           <!-- Avoid crash on OpenShift? -->
-          <jvmArgs>-Xms1G -Xmx1G</jvmArgs>
+          <jvmArgs>-Xmx300m</jvmArgs>
         </configuration>
       </plugin>
     </plugins>
